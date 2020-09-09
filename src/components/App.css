@@ -1,0 +1,96 @@
+.outer {
+    display: table;
+    position: absolute;
+    height: 99%;
+    width: 99%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.layout {
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    width: 5em;
+    height: 2em;
+    font-size: xx-large;
+    background-color: #2B87D1;
+    border: none;
+    outline: solid white;
+    color: white;
+    box-shadow: none;
+}
+
+.btn:hover {
+    font-size: xx-large;
+    background-color: white;
+    color: #2B87D1;
+}
+
+.fa-gear:hover {
+    color: white;
+}
+
+.fa-gear {
+    color: #226CA7;
+}
+
+.fa-spin-hover:hover {
+    -webkit-animation: fa-spin 6s infinite linear;
+    -moz-animation: fa-spin 6s infinite linear;
+    -o-animation: fa-spin 6s infinite linear;
+    animation: fa-spin 6s infinite linear;
+}
+
+.subtleText {
+    font-size: medium;
+    color: #226CA7;
+}
+
+.input {
+    text-align: center;
+    width: 30%;
+    height: 2em;
+    border: none;
+    outline: none;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #226CA7;
+    color: white;
+}
+
+.settingsButton {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:invalid {
+    border: solid;
+    border-width: thin;
+    border-color: red;
+}
+
+input::placeholder {
+    color: #2B87D1;
+}
+
+body {
+    background-color: #2B87D1;
+}

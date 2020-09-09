@@ -1,0 +1,10 @@
+.nodeText {
+    text-anchor: middle;
+    font-size: x-large;
+    fill: white;
+    cursor: default;
+}
+
+.noselect {
+    user-select: none;
+}
